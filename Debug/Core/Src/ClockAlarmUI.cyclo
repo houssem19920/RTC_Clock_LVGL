@@ -1,0 +1,12 @@
+ClockAlarmUI.c:39:6:ClockAlarmUI_update_current_time	2
+ClockAlarmUI.c:55:6:ClockAlarmUI_update_current_date	3
+ClockAlarmUI.c:69:6:ClockAlarmUI_update_current_temp_RH	1
+ClockAlarmUI.c:74:6:ClockAlarmUI_process_event	26
+ClockAlarmUI.c:302:6:ClockAlarmUI_ctor	1
+ClockAlarmUI.c:322:16:get_day_of_week	1
+ClockAlarmUI.c:336:6:is_settings_date_changed	5
+ClockAlarmUI.c:347:6:is_settings_time_changed	2
+ClockAlarmUI.c:356:6:is_settings_alarm_changed	2
+ClockAlarmUI.c:366:13:is_settings_changed	4
+ClockAlarmUI.c:383:7:getDayofweek	1
+ClockAlarmUI.c:390:7:getFormat	1

@@ -1,0 +1,16 @@
+tft.c:115:6:monitor_cb	1
+tft.c:123:6:tft_init	1
+tft.c:158:13:tft_flush	6
+tft.c:192:13:LCD_Config	3
+tft.c:300:6:LTDC_IRQHandler	1
+tft.c:314:6:HAL_LTDC_MspInit	1
+tft.c:403:6:HAL_LTDC_MspDeInit	1
+tft.c:438:13:SDRAM_Init	2
+tft.c:488:13:SDRAM_Initialization_Sequence	1
+tft.c:551:6:HAL_SDRAM_MspInit	1
+tft.c:639:6:HAL_SDRAM_MspDeInit	1
+tft.c:681:13:DMA_Config	2
+tft.c:724:13:DMA_TransferComplete	3
+tft.c:749:13:DMA_TransferError	1
+tft.c:761:6:DMA2_Stream0_IRQHandler	1
+tft.c:773:13:Error_Handler	1

@@ -1,0 +1,7 @@
+clock.c:8:6:Clock_is_alarm	1
+clock.c:14:6:Clock_set_current_time	2
+clock.c:31:6:Clock_set_alarm_time	1
+clock.c:35:6:Clock_set_date	1
+clock.c:42:6:Clock_get_date	1
+clock.c:51:6:Clock_ctor	1
+clock.c:63:6:temp_RH_ctor	1

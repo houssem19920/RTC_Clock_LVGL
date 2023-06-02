@@ -1,0 +1,7 @@
+core_cm4.h:1657:22:__NVIC_SetPriorityGrouping	1
+stm32f4xx_hal_msp.c:63:6:HAL_MspInit	1
+stm32f4xx_hal_msp.c:85:6:HAL_RTC_MspInit	3
+stm32f4xx_hal_msp.c:121:6:HAL_RTC_MspDeInit	2
+stm32f4xx_hal_msp.c:146:6:HAL_UART_MspInit	2
+stm32f4xx_hal_msp.c:182:6:HAL_UART_MspDeInit	2
+stm32f4xx_hal_msp.c:206:6:HAL_TIM_Base_MspInit	2
