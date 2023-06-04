@@ -51,7 +51,7 @@ void Clock_get_date(Clock * const me, date_t *const pdate) {
 void Clock_ctor(Clock *const me) {
 
 
-	Clock_set_current_time(&me->time_now,INITIAL_CURR_TIME,RTC_HOURFORMAT12_AM);
+//	Clock_set_current_time(&me->time_now,INITIAL_CURR_TIME,RTC_HOURFORMAT12_AM);
     me->alarm_time = INITIAL_ALARM_TIME;
     me->date_now.day = INITIAL_DAY;
     me->date_now.date = INITIAL_DATE;

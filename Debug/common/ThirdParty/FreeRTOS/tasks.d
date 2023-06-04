@@ -1,5 +1,4 @@
-common/ThirdParty/FreeRTOS/tasks.o: \
- C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/tasks.c \
+common/ThirdParty/FreeRTOS/tasks.o: ../common/ThirdParty/FreeRTOS/tasks.c \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/projdefs.h \

@@ -16,9 +16,6 @@ void Lvgl_display_clock(Lvgl * const me, char *const time_as_string) {
 void Lvgl_display_TEMP(Lvgl * const me, char *const temp_as_string) {
     lv_label_set_text_fmt(me->temp,"%s",temp_as_string);
 }
-void Lvgl_display_RH(Lvgl * const me, char *const temp_as_string) {
-    lv_label_set_text_fmt(me->RH,"%s",temp_as_string);
-}
 void Lvgl_btn_style_init(Lvgl* const me) {
 
     lv_style_init(&me->style_btn_normal);
@@ -59,9 +56,6 @@ void Lvgl_btn_style_init(Lvgl* const me) {
 void Lvgl_main_page_set_style(Lvgl* const me)
 {
     lv_obj_set_style_bg_color(me->screen, lv_palette_main(LV_PALETTE_LIGHT_GREEN), LV_PART_MAIN);
-    /*temp & RH*/
-    lv_obj_set_style_text_font(me->temp, &lv_font_montserrat_16, LV_PART_MAIN);
-    //lv_obj_set_style_text_font(me->RH, &lv_font_montserrat_16, LV_PART_MAIN);
 
     /*Clock*/
     lv_obj_set_style_text_font(me->clock, &lv_font_montserrat_36, LV_PART_MAIN);
@@ -70,6 +64,10 @@ void Lvgl_main_page_set_style(Lvgl* const me)
     lv_obj_set_style_text_font(me->month, &lv_font_montserrat_12, LV_PART_MAIN);
     lv_obj_set_style_text_font(me->date, &lv_font_montserrat_40, LV_PART_MAIN);
     lv_obj_set_style_text_font(me->year, &lv_font_montserrat_12, LV_PART_MAIN);
+
+    /*temp & RH*/
+       lv_obj_set_style_text_font(me->temp, &lv_font_montserrat_16, LV_PART_MAIN);
+       //lv_obj_set_style_text_font(me->RH, &lv_font_montserrat_16, LV_PART_MAIN);
 
     /*Add main page allignment code here */
     lv_obj_align(me->clock, LV_ALIGN_TOP_RIGHT, LV_PCT(-5), LV_PCT(40));
@@ -82,7 +80,7 @@ void Lvgl_main_page_set_style(Lvgl* const me)
 
     /*dropdown btn setup*/
     lv_obj_remove_style_all(me->dropdwn_btn);
-    lv_obj_set_size(me->dropdwn_btn, 30, 30);
+    lv_obj_set_size(me->dropdwn_btn, 40, 40);
     lv_obj_align(me->dropdwn_btn, LV_ALIGN_TOP_RIGHT, 0, 0);
     lv_obj_set_style_bg_opa(me->dropdwn_btn, LV_OPA_90, LV_STATE_PRESSED);
     lv_obj_set_style_radius(me->dropdwn_btn, 5, LV_STATE_PRESSED);

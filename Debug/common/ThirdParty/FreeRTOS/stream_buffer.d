@@ -1,5 +1,5 @@
 common/ThirdParty/FreeRTOS/stream_buffer.o: \
- C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/stream_buffer.c \
+ ../common/ThirdParty/FreeRTOS/stream_buffer.c \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/projdefs.h \

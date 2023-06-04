@@ -1,5 +1,4 @@
-common/ThirdParty/FreeRTOS/queue.o: \
- C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/queue.c \
+common/ThirdParty/FreeRTOS/queue.o: ../common/ThirdParty/FreeRTOS/queue.c \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/projdefs.h \

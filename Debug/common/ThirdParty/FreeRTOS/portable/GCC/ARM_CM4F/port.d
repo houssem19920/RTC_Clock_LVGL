@@ -1,5 +1,5 @@
 common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o: \
- C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.c \
+ ../common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.c \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/projdefs.h \

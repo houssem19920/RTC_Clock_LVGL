@@ -34,11 +34,11 @@ char* getFormat(uint8_t number);
 
 
 
-
+static char showtime[10];
 
 void ClockAlarmUI_update_current_time(ClockAlarmUI* const me) {
 	RTC_TimeTypeDef rtc_time;
-	static char showtime[10];
+
 	memset(&rtc_time,0,sizeof(rtc_time));
 
 	/* Get the RTC current Time */
@@ -68,7 +68,11 @@ void ClockAlarmUI_update_current_date(ClockAlarmUI* const me) {
 }
 void ClockAlarmUI_update_current_temp_RH(ClockAlarmUI* const me) {
 	Lvgl_display_TEMP(&me->lvgl_inst,showtemp);
-  //  Lvgl_display_RH(&me->lvgl_inst,showrh);
+	 if (me->state == STATE_SETTING) {
+
+  Lvgl_display_clock(&me->lvgl_inst,showtime);
+	 }
+  //Lvgl_display_RH(&me->lvgl_inst,showrh);
 
 }
 void ClockAlarmUI_process_event(ClockAlarmUI* const me, UI_event_t* event)

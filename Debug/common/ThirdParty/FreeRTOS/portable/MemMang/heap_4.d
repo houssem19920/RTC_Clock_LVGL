@@ -1,5 +1,5 @@
 common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o: \
- C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c \
+ ../common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.c \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  C:/Users/slama/Desktop/stm32_fastbit/RTOS/projects/RTOS_Workspace/common/ThirdParty/FreeRTOS/include/projdefs.h \

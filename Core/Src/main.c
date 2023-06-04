@@ -66,7 +66,6 @@ void SystemClock_Config(void);
 static void MX_RTC_Init(void);
 /* USER CODE BEGIN PFP */
 char showtemp[50];
-char showrh[5];
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
